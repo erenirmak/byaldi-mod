@@ -104,7 +104,6 @@ class PDFConverter:
         else:
             return PDFPageList(images)
 
-#### Need further modifications to the ColPaliModel and RAGMultiModalModel classes to use the above classes. ####
 class ColPaliModel2(ColPaliModel):
     def __init__(self, *args, **kwargs):
         super(ColPaliModel2, self).__init__(*args, **kwargs)
