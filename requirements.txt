@@ -1,0 +1,4 @@
+byaldi
+pillow
+PyMuPDF
+torch
